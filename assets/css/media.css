@@ -1,1 +1,13 @@
-media.css
+
+@media (min-width: 200px) and (max-width: 534px){
+
+	.flex-container{
+	flex-direction: column;
+	cursor: pointer;
+	}
+	
+	a{
+		background-color: #3F3F3F;
+	}
+
+}

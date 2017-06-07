@@ -11,16 +11,39 @@ body{
 	display: flex;
 }
 
+#hamburguesa.flex-container{
+	justify-content: flex-end;
+	align-items: center;
+	border: 20px;
+}
+
+#hamburguesa a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+#hamburguesa a:hover{
+	color: #FF8DD9;
+}
+
+
+
+
 .navegador.flex-container{
 	justify-content: space-around;
 	align-items: center; 
-	background-color: #FF8DD9;
+	cursor: pointer;
+	background: #FF8DD9;
 }
 
 .navegador a{
+	width: 100%;
 	text-decoration: none;
 	padding: 20px;
 	color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
 }
 
 .navegador a:hover{
