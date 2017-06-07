@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.navegador.flex-container{
+	justify-content: space-around;
+	align-items: center; 
+	background-color: #FF8DD9;
+}
+
+.navegador a{
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+}
+
+.navegador a:hover{
+	background-color: #BA507F;
+	color: #000;
+	font-style: italic;
+}
