@@ -11,25 +11,6 @@ body{
 	display: flex;
 }
 
-#hamburguesa.flex-container{
-	justify-content: flex-end;
-	align-items: center;
-	border: 20px;
-}
-
-#hamburguesa a{
-	text-decoration: none;
-	color: black;
-	font-size: 30px;
-}
-
-#hamburguesa a:hover{
-	color: #FF8DD9;
-}
-
-
-
-
 .navegador.flex-container{
 	justify-content: space-around;
 	align-items: center; 
@@ -50,4 +31,18 @@ body{
 	background-color: #BA507F;
 	color: #000;
 	font-style: italic;
+}
+
+#hamburguesa.flex-container{
+	justify-content: flex-end;
+	background-color: #3F3F3F;
+	color: white;
+	padding: 10px;
+}
+#hamburguesa fa-bars:hover{
+	color: #BA507F;
+}
+
+.hidden{
+	display:none;
 }

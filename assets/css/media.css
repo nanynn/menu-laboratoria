@@ -1,13 +1,26 @@
 
-@media (min-width: 200px) and (max-width: 534px){
-
-	.flex-container{
+@media (min-width: 200px) and (max-width: 768px){
+	.navegador.flex-container{
 	flex-direction: column;
 	cursor: pointer;
-	}
-	
-	a{
-		background-color: #3F3F3F;
+	justify-content: flex-start;
+	align-items: center;
+	border: 20px;
 	}
 
+	a{
+	text-decoration: none;
+	color: black;
+	background-color: #3F3F3F
+	}
+
+	a:hover{
+	color: #FF8DD9;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+	#hamburguesa{
+		display: none;
+	}
 }
